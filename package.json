@@ -1,8 +1,9 @@
 {
-  "name": "ionic4-chat",
+  "name": "flex_ionic_chat",
   "version": "0.0.1",
-  "author": "Ionic Framework",
+  "author": "Anil Bobba",
   "homepage": "https://ionicframework.com/",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,7 +12,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/common": "~8.2.14",
     "@angular/core": "~8.2.14",
