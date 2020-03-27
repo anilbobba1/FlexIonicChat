@@ -12,17 +12,17 @@ export class MessagePage implements OnInit {
 
   constructor(public route: Router) {
     this.chatData = [{
-      "name": 'Oliver',
+      "name": 'Jacson',
       "image": ' ../../assets/chat/chat2.jpg',
-      "description": ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
-      "time": '12:17',
+      "description": '',
+      "time": '07:00',
       "status": "online"
     }, {
-      "name": 'George',
+      "name": 'Joseph',
       "image": ' ../../assets/chat/chat3.jpg',
-      "description": ' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim laboriosam sunt nulla minima ratione, pariatur quaerat aut ex a ullam? Officia, explicabo optio. Dolores, ab exercitationem? Neque illo soluta sapiente!',
+      "description": '',
       "count": '2',
-      "time": 'Yesterday',
+      "time": '06:07',
       "status": "online"
     }]
   }
