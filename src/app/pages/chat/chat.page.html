@@ -16,7 +16,7 @@
   <ion-list>
     <div *ngFor="let chat of msgList; let i = index; ">
       <ion-row *ngIf="chat.userId == User">
-        <ion-col class="right" class="ion-no-padding" [ngClass]="{'clubbed':((msgList[i+1] && msgList[i+1].userId != chat.userId)|| !msgList[i+1])}">
+        <ion-col class="right ion-no-padding" [ngClass]="{'clubbed':((msgList[i+1] && msgList[i+1].userId != chat.userId)|| !msgList[i+1])}">
           <div class="imageAvatarRight">
             <div class="imageAvatarBottom">
               <ion-avatar class="avatar" [ngClass]="(msgList[i+1] && msgList[i+1].userId == chat.userId)?'hidden':''">
@@ -44,7 +44,7 @@
         </ion-col>
       </ion-row>
       <ion-row *ngIf="chat.userId == toUser">
-        <ion-col class="left" class="ion-no-padding" [ngClass]="{'clubbed':((msgList[i+1] && msgList[i+1].userId != chat.userId)|| !msgList[i+1])}">
+        <ion-col class="left ion-no-padding" [ngClass]="{'clubbed':((msgList[i+1] && msgList[i+1].userId != chat.userId)|| !msgList[i+1])}">
           <div class="imageAvatarLeft">
             <ion-label color="light">
               <div class="chatDiv" [ngClass]="{'sharper':((msgList[i+1] && msgList[i+1].userId == chat.userId) && 

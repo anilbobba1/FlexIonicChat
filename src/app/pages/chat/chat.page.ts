@@ -44,7 +44,7 @@ export class ChatPage implements OnInit {
       this.user_input = "";
       this.scrollDown()
       setTimeout(() => {
-        // this.senderSends()
+        // this.senderSends();
       }, 500);
 
     }
