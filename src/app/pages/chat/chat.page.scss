@@ -22,7 +22,6 @@ ion-list {
     align-items: flex-end;
     display: flex;
     border-radius: 50%;
-    // background: #5B2573;
     position: relative;
     top: 6px;
     z-index: 11;
@@ -53,8 +52,6 @@ ion-list {
     background: #9164ac7a;
     border-radius: 6px;
     border-bottom-left-radius: 0;
-    // margin-bottom: 14px;
-    // min-width: 72vw;
     max-width: 72vw;
     box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
   }
@@ -153,7 +150,7 @@ ion-fab-button {
   height: 47px !important;
 }
 ion-fab {
-  bottom: -22px !important;
+  bottom: -48px !important;
 }
 .footerIcon {
   color: rgba(244, 245, 248, 0.7);
