@@ -36,7 +36,7 @@ export class ChatPage implements OnInit {
       this.msgList.push({
         userId: this.toUser,
         userName: this.toUser,
-        userAvatar: this.paramData.image ? this.paramData.image : "../../assets/chat/chat4.jpg",
+        userAvatar: this.paramData.image ? this.paramData.image : "assets/chat/chat4.jpg",
         time: "12:01",
         message: this.user_input,
         id: this.msgList.length + 1
@@ -56,7 +56,7 @@ export class ChatPage implements OnInit {
       this.msgList.push({
         userId: this.User,
         userName: this.User,
-        userAvatar: "../../assets/chat/chat5.jpg",
+        userAvatar: "assets/chat/chat5.jpg",
         time: "12:01",
         message: "Pagas, this themes support but ionic 3 ionic 4, etc.."
       });

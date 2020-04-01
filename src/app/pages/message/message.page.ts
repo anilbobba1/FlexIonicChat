@@ -13,13 +13,13 @@ export class MessagePage implements OnInit {
   constructor(public route: Router) {
     this.chatData = [{
       "name": 'Jacson',
-      "image": ' ../../assets/chat/chat2.jpg',
+      "image": 'assets/chat/chat2.jpg',
       "description": '',
       "time": '07:00',
       "status": "online"
     }, {
       "name": 'Joseph',
-      "image": ' ../../assets/chat/chat3.jpg',
+      "image": 'assets/chat/chat3.jpg',
       "description": '',
       "count": '2',
       "time": '06:07',
